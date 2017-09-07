@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
   api.use('templating@1.0.0');
   api.use('blaze@2.0.0');
-  api.use('aldeed:autoform@4.0.0 || 5.0.0 || 6.0.0');
+  api.use('aldeed:autoform@6.2.0');
   api.use('momentjs:moment@2.0.0');
   api.addFiles([
     'lukemadera_autoform-pikaday.html',
